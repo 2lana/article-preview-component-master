@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <article>
+      <figure>
+        <div class="header-illustration-article"><img src="images/drawers.jpg" alt="drawers image"></div>
+      </figure>
+      <section class="presentation-article">
+        <header>Shift the overall look and feel by adding these wonderful touches to furniture in your home</header>
+        <p class="preview-article">Ever been in a room and felt like something was missing? Perhaps it felt slightly
+          bare and uninviting.
+          I’ve got some simple tips to help you make any room feel complete.
+        </p>
+        <div class="autor">
+          <div class="autor-avatar"><img src="images/avatar-michelle.jpg" alt="Michelle Appleton"></div>
+          <div class="autor-wrapper">
+            <h3>Michelle Appleton</h3>
+            <label for="date">28 Jun 2020</label>
+          </div>
+          <div id="share-image">
+            <div id="visible-image-share"><img src="images/icon-share.svg" alt="share image">
+            </div>
+          </div>
+        </div>
+        <div class="share-box share-hidden" id="share-list">
+          <h2>share</h2>
+          <div class="share-icons">
+            <a href="#"><img src="images/icon-facebook.svg" alt="facebook icon"></a>
+            <a href="#"><img src="images/icon-twitter.svg" alt="twitter icon"></a>
+            <a href="#"><img src="images/icon-pinterest.svg" alt="pinterest icon"></a>
+          </div>
+          <div id="visible-image-share" class="image-hidden"><img src="images/icon-share.svg" alt="share image">
+          </div>
+      </section>
+    </article>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/2lana">2lana</a>.
+    </div>
+  </main>
+  <script defer src="index.js"></script>
+</body>
+
+</html>
